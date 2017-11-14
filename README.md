@@ -13,5 +13,5 @@ This is wrapper for MAGMA, to easily analyze pathways.
 Example:
 ./runPath.sh example_GWAS/Alzheimer ./example 10000
 
-If you want to use the drug data (not yet published), please contact us (helena.gaspar@kcl.ac.uk).
-If you use our scripts for your paper, please remember to cite us (https://github.com/hagax8/PathAnalyzor, by Héléna A. Gaspar, King's College London)
+If you want to use the drug data, please contact us (helena.gaspar@kcl.ac.uk).
+If you use our scripts for your paper, please remember to cite us (https://github.com/hagax8/PathAnalyzor, by Héléna A. Gaspar, Social, Genetic & Developmental Psychiatry Centre, King's College London)
