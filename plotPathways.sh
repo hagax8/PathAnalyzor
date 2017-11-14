@@ -13,7 +13,7 @@ ${homeDir}/qqplot_pathways.r ${pathwayresults} ${pathwayresults} 2>> ${output}.r
 
 ${homeDir}/insertQ.r ${pathwayresults};
 
-awk -F"\t" 'NR==1{print "COMP_P\tSELF_P\tNAME\tLINK\tNGENES\tq_valueBH\tq_valueBY\tp_valueBF"}NR>1{split($3,a,";");for(i in a){split(a[i],b,"\?getlink\\?"); printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n",$1,$2,b[1],b[2],$4,$5,$6,$7;}}' ${pathwayresults}p > ${pathwayresults};
+awk -F"\t" '{if(NR==1){print "COMP_P\tSELF_P\tNAME\tLINK\tNGENES\tq_valueBH\tq_valueBY\tp_valueBF"}else if(NR>1){split($3,a,";");for(i in a){split(a[i],b,".getlink."); printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n",$1,$2,b[1],b[2],$4,$5,$6,$7;}}}' ${pathwayresults}p > ${pathwayresults};
 
 echo ""
 echo "************PRODUCING HTML VIS FOR PATHWAYS***********"
