@@ -1,6 +1,6 @@
 # PathAnalyzor
 
-This is wrapper for [MAGMA](https://ctg.cncr.nl/software/magma), to easily analyze pathways from [MSigDB](http://software.broadinstitute.org/gsea/msigdb), [Open Targets](https://www.opentargets.org/), [gene families](https://www.genenames.org/) and drug gene-sets (reference soon to be available; if you want to use the drug data, please contact us).
+This is a wrapper for [MAGMA](https://ctg.cncr.nl/software/magma), to easily analyze pathways from [MSigDB](http://software.broadinstitute.org/gsea/msigdb), [Open Targets](https://www.opentargets.org/), [gene families](https://www.genenames.org/) and drug gene-sets (reference soon to be available; if you want to use the drug results/data, please contact us).
 
 1- Clone repository.
 
