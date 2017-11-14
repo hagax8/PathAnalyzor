@@ -1,6 +1,6 @@
 # PathAnalyzor
 
-This is wrapper for MAGMA, to easily analyze pathways.
+This is wrapper for MAGMA (https://ctg.cncr.nl/software/magma), to easily analyze pathways from MSigDB (http://software.broadinstitute.org/gsea/msigdb), Open Targets (https://www.opentargets.org/), gene families (https://www.genenames.org/) and drugs (if you want to use the drug data, please contact us).
 
 1- Clone repository.
 
@@ -13,5 +13,5 @@ This is wrapper for MAGMA, to easily analyze pathways.
 Example:
 ./runPath.sh example_GWAS/Alzheimer ./example 10000
 
-If you want to use the drug data, please contact us (helena.gaspar@kcl.ac.uk).
+If you want to use the drug data in your paper, please contact us (helena.gaspar@kcl.ac.uk).
 If you use our scripts for your paper, please remember to cite us (https://github.com/hagax8/PathAnalyzor, by Héléna A. Gaspar, Social, Genetic & Developmental Psychiatry Centre, King's College London)
