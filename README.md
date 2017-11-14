@@ -20,7 +20,9 @@ If you use our scripts for your paper, please remember to cite us (https://githu
 Main output files:
 
 1- HTML files: result tables and bubble plots
+
 2- xls file: gathering all gene-wise and pathway results
+
 3- pdf files: gene pathway qq plots, top genes and pathways, gene manhattan plot
 
 
