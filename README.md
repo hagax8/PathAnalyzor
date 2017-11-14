@@ -4,7 +4,7 @@ This is wrapper for MAGMA (https://ctg.cncr.nl/software/magma), to easily analyz
 
 1- Clone repository.
 
-2- Download ancestry reference directory (g1000_ref.tar.gz). Decompress it inside main directory.
+2- Download ancestry reference directory ([g1000_ref.tar.gz](https://drive.google.com/file/d/1jEJsH1vRnaNlkvCJ504FMBFXdHeA6BBl/view?usp=sharing)). Decompress it inside main directory.
 
 3- Inside main directory, install packages by running "./InstallPackages.sh"
 
@@ -15,3 +15,6 @@ Example:
 
 If you want to use the drug data in your paper, please contact us (helena.gaspar@kcl.ac.uk).
 If you use our scripts for your paper, please remember to cite us (https://github.com/hagax8/PathAnalyzor, by Héléna A. Gaspar, Social, Genetic & Developmental Psychiatry Centre, King's College London)
+
+
+
